@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- Styling -->
+    <link rel="stylesheet" href="./styling/base.css">
+    <link rel="stylesheet" href="./styling/reset.css">
+    <link rel="stylesheet" href="./styling/header.css">
+    <link rel="stylesheet" href="./styling/navigation.css">
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/main_workshop.css">
+    <link rel="stylesheet" href="./styling/button.css">
+    <link rel="stylesheet" href="./styling/gallery.css">
+    <link rel="stylesheet" href="./styling/socialmedia_aside.css">
+    <link rel="stylesheet" href="./styling/modal.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Simonetta&display=swap" rel="stylesheet"> 
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- Javascript -->
+    <script src="./js/data/workshops.js" defer></script>
+    <script src="./js/displayWorkshops.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+    <script src="./js/backToTop.js" defer></script>
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+    <title>Document</title>
+</head>
+<body>
+
+  <header id="header">
+    <h1 id="header_logo">
+      <img src="./assets/logo_yarnpainter.svg" alt="">
+    </h1>
+
+    <nav id="header_nav">
+      <ul>
+        <li>
+          <a href="./index.html">
+              home
+          </a>        
+        </li>
+        <li>
+          <a href="./mijnwerk.html">
+            mijn werk
+          </a>
+        </li>
+        <li class="active">
+          <a href="./workshops.html">
+            workshops
+          </a> 
+        </li>
+        <li>
+          <a href="./agenda.html">
+            agenda
+          </a> 
+        </li>
+        <li>
+          <a href="./contact.html">
+            contact
+          </a> 
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="main_article">
+      <p id="workshop_intro">
+        Ik geef ook workshops op aanvraag. Je leert dan de kunst van het yarnpainten onder begeleiding van mijzelf. Hieronder vind je een sfeerimpressie van eerdere workshops. Mocht je meer informatie willen of een workshop willen aanvragen, neem dan gerust contact op. Klik op een foto om hem beter te bekijken!      
+      </p>
+      <article id="workshop_gallery">
+        <!-- Art content -->
+        </article>
+
+        <button class="backToTop">
+          <span class="arrow"></span>
+        </button>
+    </article>
+  </main>
+
+  <aside id="social_media">
+    <a href="https://www.instagram.com/albumcover_art/" target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/social_insta.svg" alt="instagram">
+    </a>
+    <a href="https://www.facebook.com/yarnpainting.art"  target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/socials_fb.svg" alt="facebook">
+    </a>
+    <a href="https://www.linkedin.com/in/bella-van-lonkhuizen-5592916b" target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/socials_linkedin.svg" alt="linkedIn">
+    </a>
+  </aside>
+  
+  <aside id="modal" class="closeBtn">
+    <article id="display">
+      <img src="" id="modalImg" alt="">
+    </article>
+  </aside>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.main{
+    width: 920px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main_article{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main_article h2{
+    margin-bottom: 50px;
+    width: 50%;
+    color: #3C7F72;
+    font-weight: bold;
+    border-bottom: solid 1px #DCB556;
+}
+
+.main_article h2 img{
+    height: 35px;
+}
+
+@media all and (max-width: 919px) {
+    .main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,43 @@
+#contact_article h2{
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#contact .social_img{
+    width: 150px;
+    height: 150px;
+    opacity: 60%;
+    transition: opacity 0.5s;
+}
+
+#contact .social_img:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+@media all and (max-width: 950px) {
+    #contact{
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #contact .social_img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #contact .social_img{
+        width: 50px;
+        height: 50px;
+    }
+}

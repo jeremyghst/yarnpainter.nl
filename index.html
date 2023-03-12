@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- Styling -->
+    <link rel="stylesheet" href="./styling/base.css">
+    <link rel="stylesheet" href="./styling/reset.css">
+    <link rel="stylesheet" href="./styling/header.css">
+    <link rel="stylesheet" href="./styling/navigation.css">
+    <link rel="stylesheet" href="./styling/main.css">
+    <link rel="stylesheet" href="./styling/main_home.css">
+    <link rel="stylesheet" href="./styling/button.css">
+    <link rel="stylesheet" href="./styling/gallery.css">
+    <link rel="stylesheet" href="./styling/table.css">
+    <link rel="stylesheet" href="./styling/socialmedia_aside.css">
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Simonetta&display=swap" rel="stylesheet"> 
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+    <!-- Javascript -->
+    <!-- Data -->
+    <script src="./js/data/albums.js" defer></script>
+    <script src="./js/data/workshops.js" defer></script>
+    <script src="./js/data/agenda.js" defer></script>
+
+    <!-- Functions -->
+    <script src="./js/displayLastAlbums.js" defer></script>
+    <script src="./js/displayLastWorkshops.js" defer></script>
+    <script src="./js/displayUpcomingEvent.js" defer></script>
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+    <title>Yarnpainters</title>
+</head>
+<body>
+
+  <header id="header">
+    <h1 id="header_logo">
+      <img src="./assets/logo_yarnpainter.svg" alt="">
+    </h1>
+
+    <nav id="header_nav">
+      <ul>
+        <li class="active">
+          <a href="./index.html">
+              home
+          </a>        
+        </li>
+        <li>
+          <a href="./mijnwerk.html">
+            mijn werk
+          </a>
+        </li>
+        <li>
+          <a href="./workshops.html">
+            workshops
+          </a> 
+        </li>
+        <li>
+          <a href="./agenda.html">
+            agenda
+          </a> 
+        </li>
+        <li>
+          <a href="./contact.html">
+            contact
+          </a> 
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <header id="main_header_intro" class="main_header">
+      <p id="intro_text">
+        Mijn naam is Isabella en ik heb deze pagina opgericht om mensen kennis te laten maken met de kunstvorm Yarn Painting. Deze kunst is afkomstig van de Huichol Indianen uit Mexico. Yarn Painting is schilderen met garens en toegankelijk voor iedereen. De prachtige garens komen ook uit Mexico. Er zijn meer dan 100 verschillende kleuren. Met behulp van mexicaanse bijenwas is het mogelijk om het garens op hout te plakken; doordat de bijenwas niet uitdroogt, noch hard wordt, is het mogelijk om het garens mooi te plaatsen (en eventueel te verplaatsen). Voor deze techniek heb je dus beslist geen kunstenaarshanden nodig.
+      </p>
+      <img id="intro_img" src="./assets/intro_img.svg" alt="">
+    </header>
+
+    <article class="main_article">
+      <h2>
+        Mijn werk
+      </h2>
+      <article id="gallery" class="gallery">
+      </article>
+
+      <a href="./mijnwerk.html" class="seeMoreBtn">
+        Zie al mijn werk
+        <span class="arrow"></span>
+      </a>
+    </article>
+
+    <article class="main_article">
+      <h2>
+        Workshops
+      </h2>
+      <article id="gallery2" class="gallery small">
+      </article>
+
+      <a href="./workshops.html" class="seeMoreBtn">
+        Zie alle workshop foto's
+        <span class="arrow"></span>
+      </a>
+    </article>
+
+    <article class="main_article">
+      <h2>
+        Eerst volgend agendapunt
+      </h2>
+      <article>
+        <table id="eventTable">
+          <thead>
+            <tr>
+              <th>Datum</th>
+              <th>Tijd</th>
+              <th>Locatie</th>
+              <th>Omschrijving</th>
+            </tr>
+          </thead>
+          <tbody id="tablebody"></tbody>
+        </table>
+      </article>
+
+      <a href="./agenda.html" class="seeMoreBtn">
+        Zie volledige agenda
+        <span class="arrow"></span>
+      </a>
+    </article>
+  </main>
+
+  <aside id="social_media">
+    <a href="https://www.instagram.com/albumcover_art/" target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/social_insta.svg" alt="instagram">
+    </a>
+    <a href="https://www.facebook.com/yarnpainting.art"  target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/socials_fb.svg" alt="facebook">
+    </a>
+    <a href="https://www.linkedin.com/in/bella-van-lonkhuizen-5592916b" target= "_blank" rel="noopener noreferrer">
+      <img class="social_img" src="./assets/socials_linkedin.svg" alt="linkedIn">
+    </a>
+  </aside>
+</body>
+</html>

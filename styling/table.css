@@ -1,0 +1,24 @@
+#eventTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#eventTable th{
+    text-align: start;
+    background-color: #3C7F72;
+    color: #FDF9F1;
+    padding: 10px;
+    width: calc(50%/3);
+}
+
+#eventTable th:last-child{
+    width: 50%;
+}
+
+#eventTable tbody tr:nth-child(even){
+    background-color: #C16D0266;
+}
+
+#tablebody td{
+    padding: 10px;
+}
