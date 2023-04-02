@@ -178,6 +178,10 @@ const workshop_json = [
             '10.jpeg',
             '11.jpeg',
             '12.jpeg',
+            '13.jpeg',
+            '14.jpeg',
+            '15.jpeg',
+            '16.jpeg',
         ]
     }
 ].reverse();
