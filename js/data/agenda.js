@@ -70,27 +70,6 @@ const agenda_json = [
         'description': '6 t/m 12 jaar',
     },
     {
-        'id': '11',
-        'date': '12 april 2023',
-        'time': '13:30 tot 16:00',
-        'location': 'Breda',
-        'description': '6 t/m 12 jaar',
-    },
-    {
-        'id': '12',
-        'date': '26 april 2023',
-        'time': '13:30 tot 16:00',
-        'location': 'Breda',
-        'description': '6 t/m 12 jaar',
-    },
-    {
-        'id': '13',
-        'date': '10 mei 2023',
-        'time': '13:30 tot 16:00',
-        'location': 'Breda',
-        'description': '6 t/m 12 jaar',
-    },
-    {
         'id': '14',
         'date': '24 mei 2023',
         'time': '13:30 tot 16:00',
@@ -107,13 +86,6 @@ const agenda_json = [
     {
         'id': '16',
         'date': '28 juni 2023',
-        'time': '13:30 tot 16:00',
-        'location': 'Breda',
-        'description': '6 t/m 12 jaar',
-    },
-    {
-        'id': '17',
-        'date': '5 juli 2023',
         'time': '13:30 tot 16:00',
         'location': 'Breda',
         'description': '6 t/m 12 jaar',

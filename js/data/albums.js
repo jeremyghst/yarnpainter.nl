@@ -1318,5 +1318,48 @@ const album_json = [
         artist: 'The body and soul of Tom Jones',
         album: '',
         img: 'thebodyandsouloftomjones.jpeg'
-    }
+    },
+    {
+        id: 221,
+        artist: 'Beyoncé',
+        album: '',
+        img: 'Beyoncé.png'
+    },
+    {
+        id: 222,
+        artist: 'Uncle Acid And The Deadbeats',
+        album: '',
+        img: 'UncleAcidAndTheDeadbeats.png'
+    },
+    {
+        id: 224,
+        artist: 'Gerry Rafferty',
+        album: '',
+        img: 'GerryRafferty.png'
+    },
+    {
+        id: 225,
+        artist: 'Cream',
+        album: '',
+        img: 'Cream.png'
+    },
+    {
+        id: 226,
+        artist: 'Julie Driscoll',
+        album: '',
+        img: 'JulieDriscoll.png'
+    },
+    {
+        id: 227,
+        artist: 'Blood Sweat & Tears',
+        album: '',
+        img: 'BloodSweat&Tears.png'
+    },
+    {
+        id: 228,
+        artist: 'Little Richard',
+        album: '',
+        img: 'LittleRichard.png'
+    },
+    
 ]
