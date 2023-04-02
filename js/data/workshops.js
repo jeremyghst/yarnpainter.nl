@@ -166,6 +166,10 @@ const workshop_json = [
         location: 'Breda',
         date: '2023',
         img: [
+            '13.jpeg',
+            '14.jpeg',
+            '15.jpeg',
+            '16.jpeg',
             '1.jpeg',
             '2.jpeg',
             '3.jpeg',
@@ -178,10 +182,6 @@ const workshop_json = [
             '10.jpeg',
             '11.jpeg',
             '12.jpeg',
-            '13.jpeg',
-            '14.jpeg',
-            '15.jpeg',
-            '16.jpeg',
         ]
     }
 ].reverse();
