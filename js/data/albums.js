@@ -1361,5 +1361,23 @@ const album_json = [
         album: '',
         img: 'LittleRichard.png'
     },
+    {
+        id: 229,
+        artist: 'Wu-tang CLan',
+        album: '',
+        img: 'wutagclan.jpg'
+    },
+    {
+        id: 230,
+        artist: 'Chuck Berry',
+        album: '',
+        img: 'chuckberry.jpg'
+    },
+    {
+        id: 231,
+        artist: 'Andre Hazes',
+        album: '',
+        img: 'andrehazes.jpg'
+    },
     
 ]
